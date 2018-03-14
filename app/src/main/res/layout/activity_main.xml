@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus_pc.diseo.MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/image"/>
+            
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/borde">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/juanfer"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="@color/coloraAmarillo"
+                            android:paddingLeft="10dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" >
+
+
+                                <TextView
+                                    android:id="@+id/juan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Juan Fernando Quintero"
+                                    android:layout_centerHorizontal="true"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/coloraWhite"
+                                    android:textSize="15dp"
+                                    android:paddingLeft="10dp" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Centrocampista"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="15dp"
+                                    android:textColor="@color/coloraWhite"
+                                    android:layout_centerInParent="true" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:id="@+id/estrell"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/estrell2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/estrell"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/estrell3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/estrell2"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/estrell4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/estrell3"/>
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/estrell4"/>
+                                <ImageView
+                                    android:id="@+id/share"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/share"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginRight="10dp"/>
+
+                                <ImageView
+                                    android:id="@+id/heart"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/heart"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/share"/>
+                                <ImageView
+                                    android:id="@+id/like"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/like"
+                                    android:layout_toLeftOf="@id/heart"
+                                    android:layout_centerInParent="true"/>
+
+
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/borde">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/james"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="@color/coloraAmarillo"
+                            android:paddingLeft="10dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" >
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="James Rodriguez"
+                                    android:layout_centerHorizontal="true"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/coloraWhite"
+                                    android:textSize="15dp"
+                                    android:paddingLeft="10dp" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Centrocampista"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="15dp"
+                                    android:textColor="@color/coloraWhite"
+                                    android:layout_centerInParent="true" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:id="@+id/estrella"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/estrella2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/estrella"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/estrella3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/estrella2"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/estrella4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/estrella3"/>
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/estrella4"/>
+                                <ImageView
+                                    android:id="@+id/share1"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/share"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginRight="10dp"/>
+
+                                <ImageView
+                                    android:id="@+id/heart1"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/heart"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/share1"/>
+                                <ImageView
+                                    android:id="@+id/like1"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/like"
+                                    android:layout_toLeftOf="@id/heart1"
+                                    android:layout_centerInParent="true"/>
+
+
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/borde">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/falcao"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="@color/coloraAmarillo"
+                            android:paddingLeft="10dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" >
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Falcao Garcia"
+                                    android:layout_centerHorizontal="true"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/coloraWhite"
+                                    android:textSize="15dp"
+                                    android:paddingLeft="10dp" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delantero"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="15dp"
+                                    android:textColor="@color/coloraWhite"
+                                    android:layout_centerInParent="true" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:id="@+id/strella"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/strella2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/strella"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/strella3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/strella2"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/strella4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/strella3"/>
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/strella4"/>
+                                <ImageView
+                                    android:id="@+id/share2"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/share"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginRight="10dp"/>
+
+                                <ImageView
+                                    android:id="@+id/heart2"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/heart"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/share2"/>
+                                <ImageView
+                                    android:id="@+id/like2"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/like"
+                                    android:layout_toLeftOf="@id/heart2"
+                                    android:layout_centerInParent="true"/>
+
+
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/borde">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/dacid"
+                            app:civ_border_width="2dp"
+                            app:civ_border_color="@color/coloraAmarillo"
+                            android:paddingLeft="10dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" >
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="David Ospina"
+                                    android:layout_centerHorizontal="true"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/coloraWhite"
+                                    android:textSize="15dp"
+                                    android:paddingLeft="10dp" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Arquero"
+                                    android:paddingLeft="10dp"
+                                    android:textSize="15dp"
+                                    android:textColor="@color/coloraWhite"
+                                    android:layout_centerInParent="true" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:id="@+id/trella"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/trella2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/trella"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/trella3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_toLeftOf="@+id/trella2"
+                                    android:layout_centerInParent="true"/>
+                                <ImageView
+                                    android:id="@+id/trella4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/trella3"/>
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/staryellow"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/trella4"/>
+                                <ImageView
+                                    android:id="@+id/share3"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/share"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerInParent="true"
+                                    android:layout_marginRight="10dp"/>
+
+                                <ImageView
+                                    android:id="@+id/heart3"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/heart"
+                                    android:layout_centerInParent="true"
+                                    android:layout_toLeftOf="@+id/share3"/>
+                                <ImageView
+                                    android:id="@+id/like3"
+                                    android:layout_width="30dp"
+                                    android:layout_height="30dp"
+                                    android:background="@drawable/like"
+                                    android:layout_toLeftOf="@id/heart3"
+                                    android:layout_centerInParent="true"/>
+
+
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+
+        </LinearLayout>
+
+       
+
+    
+
+</android.support.design.widget.CoordinatorLayout>
